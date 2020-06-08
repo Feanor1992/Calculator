@@ -85,6 +85,10 @@ button[data-index="18"] {
         max-width: 480px;
         font-size: 30px;
     }
+
+    .page-title {
+        font-size: 125%;
+    }
     
     .calculator {
         width: 75%;
@@ -102,6 +106,10 @@ button[data-index="18"] {
         font-size: 30px;
     }
 
+    .page-title {
+        font-size: 150%;
+    }
+
     .calculator {
         width: 75%;
     }
@@ -116,6 +124,10 @@ button[data-index="18"] {
         min-width: 769px;
         max-width: 1024px;
         font-size: 30px;
+    }
+
+    .page-title {
+        font-size: 125%;
     }
 
     .calculator {
