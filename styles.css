@@ -80,7 +80,49 @@ button[data-index="18"] {
 }
 
 @media (min-width:320px) and (max-width:480px) {
+    body {
+        min-width: 320px;
+        max-width: 480px;
+        font-size: 30px;
+    }
+    
     .calculator {
         width: 75%;
+    }
+
+    a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        min-width: 481px;
+        max-width: 768px;
+        font-size: 30px;
+    }
+
+    .calculator {
+        width: 75%;
+    }
+
+    a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        min-width: 769px;
+        max-width: 1024px;
+        font-size: 30px;
+    }
+
+    .calculator {
+        width: 75%;
+    }
+
+    a {
+        font-size: 22px;
     }
 }
