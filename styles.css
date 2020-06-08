@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1366px;
+    width: 100%;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 21px;
+    color: #061B28;  
+    background-image: url(img/background.jpg);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(22, 102, 151);
+}
+
+.page-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 800;
+    font-size: 250%;
+    color: rgb(18, 7, 172);
+    text-align: center;
+}
+
+.calculator{
+    display: grid;
+    grid-template-rows: 25% 85%;
+    height: 550px;
+    width: 683px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+.display {
+    overflow: auto;
+    word-wrap: break-word;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.display::before {
+    content: "";
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.button {
+    background-image: linear-gradient(to bottom, #696969, #c0c0c0);
+}
+
+.clear {
+    background-image: linear-gradient(to bottom, #fc3939, #f58080);
+}
+
+.button:nth-child(4n) {
+    background-image: linear-gradient(to bottom, #f4f760, #ffe989);
+}
+
+button[data-index="1"],
+button[data-index="2"],
+button[data-index="17"],
+button[data-index="18"] {
+    background-image: linear-gradient(to bottom, #f4f760, #ffe989);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .calculator {
+        width: 75%;
+    }
+}
