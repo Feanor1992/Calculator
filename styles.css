@@ -61,14 +61,7 @@ a {
     background-image: linear-gradient(to bottom, #fc3939, #f58080);
 }
 
-.button:nth-child(4n) {
-    background-image: linear-gradient(to bottom, #f4f760, #ffe989);
-}
-
-button[data-index="1"],
-button[data-index="2"],
-button[data-index="17"],
-button[data-index="18"] {
+.operator {
     background-image: linear-gradient(to bottom, #f4f760, #ffe989);
 }
 
