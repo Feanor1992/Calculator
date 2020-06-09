@@ -42,6 +42,7 @@ a {
     word-wrap: break-word;
     background-color: aliceblue;
     padding: 15px;
+    text-align: right;
 }
 
 .display::before {
