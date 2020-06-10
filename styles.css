@@ -8,7 +8,7 @@ body {
     width: 100%;
     font-family: "Roboto", "Arial", sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 900;
     font-size: 25px;
     line-height: 21px;
     color: #061B28;  
@@ -43,6 +43,7 @@ a {
     background-color: aliceblue;
     padding: 15px;
     text-align: right;
+    font-size: 35px;
 }
 
 .display::before {
@@ -56,14 +57,37 @@ a {
 
 .button {
     background-image: linear-gradient(to bottom, #696969, #c0c0c0);
+    font-weight: bold;
+    font-size: 30px;
+}
+button[data-index="0"] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+button[data-index="17"] {
+    grid-column-start: -1;
+    grid-column-end: -3;
 }
 
 .clear {
     background-image: linear-gradient(to bottom, #fc3939, #f58080);
+    font-weight: bold;
 }
 
 .operator {
     background-image: linear-gradient(to bottom, #f4f760, #ffe989);
+    font-weight: bold;
+}
+
+.equal {
+    background-image: linear-gradient(to bottom, #50f328, #8beb54);
+    font-weight: bold;
+}
+
+.decimal {
+    background-image: linear-gradient(to bottom, #faefd9, #faefcc);
+    font-weight: bold;
 }
 
 .footer-container {
